@@ -1,0 +1,26 @@
+.post {
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: left;
+    color: #FFF;
+    background: #333348;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__body {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    &--hide {
+      display: none;
+    }
+  }
+}

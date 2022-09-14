@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  background: #12122D;
+}
+
+.app {
+  color: #EEEEEE;
+  padding: 50px;
+  max-width: 1700px;
+  height: 100%;
+  margin: auto;
+
+  &__users {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+
+  &__name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  &__search {
+    display: flex;
+    gap: 30px;
+
+    &--button {
+      width: 248px;
+      height: 70px;
+      background: #52519D;
+      border-radius: 40px;
+      border: none;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      color: #EEEEEE;
+      transition: transform 0.5s;
+  
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+      }
+    }
+
+    &--input {
+      width: 248px;
+      height: 70px;
+      background: #333348;
+      color: #EEEEEE;
+      border-radius: 40px;
+      border: none;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      padding: 0 35px;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+}
+
+.users {
+  gap: 30px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 auto auto;
+    min-height:770px;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+
+  &__previous {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &--image {
+      width: 18px;
+      height: 36px;
+    }
+
+    &--text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      transition: transform 0.5s;
+
+      &:hover {
+        transform: scale(1.04);
+      }
+    }
+  }
+
+  &__next {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &--image {
+      width: 18px;
+      height: 36px;
+    }
+
+    &--text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      transition: transform 0.5s;
+
+      &:hover {
+        transform: scale(1.04);
+      }
+    }
+  }
+}
