@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { User } from './components/User/User';
-import { Posts } from './components/Posts/Posts';
+import { User } from './components/User';
+import { Posts } from './components/Posts';
 import { getPosts, getUsers } from './api';
-
-import './App.scss';
 import previous from './images/Vector1.png';
 import next from './images/Vector2.png';
+
+import './App.scss';
 
 export const App: React.FC = () => {
   const [users, setUsers] = useState<User[] | []>([]);

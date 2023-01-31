@@ -1,6 +1,6 @@
-## YourItSoft Test Task
+## Users posts
 
-* [DEMO LINK](https://uliton.github.io/youritsoft_test_task/)
+* [DEMO LINK](https://uliton.github.io/users_posts/)
 <br>
 
 ## Description
@@ -19,7 +19,7 @@
 <br>
 
 # If you want to change some code just make installation:
-* Fork and clone [this repository](https://github.com/uliton/abz_test_task)
+* Fork and clone [this repository](https://github.com/uliton/users_posts.git)
 * Run "npm install" ore "npm i" in your terminal
 * Run "npm start"
 * Anjoy!
